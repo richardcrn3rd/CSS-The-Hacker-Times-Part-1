@@ -2,7 +2,6 @@
 
 header {
     color: black;
-    /* text-align: center; */
     font-family: Abril Fatface;
 
 }
@@ -11,30 +10,32 @@ body {
     display: flex;
     align-items: center;
     background-color: #eee;
-    width: 100%;
     font-family: Source Sans Pro;
     color: #777;
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
 
 }
 
 nav li {
 
     display: inline-block;
-    padding: 0%;
+    padding: 0px 4px;
+    width: evenly-space;
    
+}
 
-
-    a:link {
-        text-decoration: none;
-    }
-
+a {
+    text-decoration: none;
+    color: #777;
 
 }
 
 hr {
     height: 0px;
     width: 100%;
-    color: ;
+    color:#ddd ;
 }
 
 .newspaper-container {
@@ -42,18 +43,15 @@ hr {
     background: white;
     border-radius: 10px;
     box-shadow: #ddd;
-    padding:10px;
+    padding: 10px;
 }
 
-/* background: lightcyan;
-text-align: center;
-font-family: sans-serif;
-padding: 2em 3em;
-margin: 2em auto;
-display: block;
-border: 1px dotted indigo;
-box-shadow: 4px 4px 4px silver;
-text-shadow: 1px 1px steelblue; */
-/* main {
-    text-shadow: 1px 1px 2px #aaa;
-    box-shadow: 4px 4px 8px ; */
+main {
+    font-family: #dd3232;
+}
+
+.more-articles {
+p{
+    width:100%;
+}
+}
